@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>form elements</title>
+	<style type="text/css">
+		body{
+			margin: 15px;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<h3>FIRST:</h3>
+<form action="http://www.baidu.com" name="reg" method="get" target="_black" autocomplete="off" id="regester">
+    <fieldset>
+    <legend>group1</legend>
+				<label>
+		    username:<input type="" name="user" autofocus  value="username"></label>
+				<br />
+		    <button type="submit">submit</button>
+				<button type="reset">clear</button>
+				<button type="button">button</button>
+		    <br />
+    </fieldset>
+				<label for="email">email:</label>
+				<input type="" name="email" form="regester" disabled>
+</form>
+<hr />
+<h3>second(different type):</h3>
+<form>
+  <p>text:</p>
+	<input type="text" name="type1" maxlength="5" size="30" value="text" readonly disabled list="abc"><br />
+	<p>password:</p>
+	<input type="password" name="password1" placeholder="please input password">
+	<p>search:</p>
+	<input type="search" name="search1">
+	<p>number and range:</p>
+	<input type="number" name="number1" min="10" max="100"><button>submit</button>
+	<p>data:</p>
+	<input type="date" name="date1"><br />
+	<input type="month" name="month1"><br />
+	<input type="time" name="time1"><br />
+  <input type="datetime" name="datetime1"><br />
+  <input type="week" name="week1"><br />
+  <input type="datetime-local" name="datetime-local1"><br />
+  <p>color:</p>
+  <input type="color" name="color1"><button>submit</button>
+  <p>checkbox:</p>
+  music<input type="checkbox" name="music" value="1"><br />
+  gym<input type="checkbox" name="gym" value="2"><br />
+  food<input type="checkbox" name="food" value="3"><br />
+  <button>submit</button>
+  <p>radio:</p>
+  sex:<input type="radio" name="sex" value="1" checked>man<br />
+  <input type="radio" name="sex" value="2">woman<br />
+  <button>submit</button>
+  <p>images:</p>
+  <input type="image" name="image1" src="../images/tea.jpg">
+  <p>email:</p>
+  <input type="email" name="email1"><button>submit</button>
+  <p>url:</p>
+  <input type="url" name="url1"><button>submit</button>
+  <p>hidden</p>
+  <input type="hidden" name="id"><button>submit</button>
+  <p>file:</p>
+  <input type="file" name="file"><button>submit</button>
+</form>
+
+<datalist id="abc">
+<option value="orange">apple</option>
+<option value="orange">bananer</option>
+<option value="boluo" label="li">
+<option value="huolongguo">
+</datalist>
+<hr />
+<h3>third:</h3>
+<form>
+		<p>select:</p>
+		<select name="food" size="5" multiple>
+		<optgroup label="fruit">
+			<option value="1">apple</option>
+			<option value="2">orange</option>
+			<option value="3">pear</option>
+		</optgroup>
+		<optgroup label="grain">
+			<option value="4" selected>maize</option>
+			<option value="5">earth nut</option>
+			<option value="6">potato</option>
+		</optgroup>
+		</select>
+		<button>submit</button>
+</form>
+<form>
+		<textarea name="text" wrap="hard" cols="25" rows="8" wrap="">remain the word what you want</textarea>
+		<button>submit</button>
+</form>
+
+<form oninput="res.value=number1.valueAsNumber*number2.valueAsNumber">
+<input type="number" id="number1">*<input type="number" id="number2">=
+<output for="number1 number2" name="res"></output>
+<br />
+<button>submit</button>
+</form>
+</body>
+</html>
+

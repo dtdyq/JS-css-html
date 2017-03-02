@@ -1,0 +1,343 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 760px;
+	margin: 0 auto;
+	background: url(images/bg.gif);
+	font-size: 12px;
+}
+header{
+	width: 760px;
+	height: 303px;
+	background: url(images/header.jpg) no-repeat left top;
+}
+header ul{
+	padding-left: 32px;
+	padding-top: 272px;
+	list-style-type: none;
+
+}
+header ul li{
+	float: left;
+	width: 77px;
+	height: 18px;
+}
+header ul a{
+	display: block;
+	text-indent: -9999px;
+}
+aside{
+	width: 203px;
+	height: 420px;
+	background: url(images/sidebar_down.jpg) no-repeat left bottom;
+	float: left;
+}
+aside h1{
+	width: 203px;
+	height: 54px;
+	background: url(images/sidebar_header.jpg) no-repeat;
+}
+aside #div1{
+	background: url(images/sidebar_bg.jpg);
+}
+aside ul li{
+		line-height: 20px;
+		margin-left: 25px;
+}
+aside ul li a{
+	text-decoration: none;
+	color: black;
+}
+aside ul li a:hover{
+	text-decoration: underline;
+	color: red;
+	font-size: 110%;
+}
+aside dl dd.line{
+	border-bottom: 1px solid black;
+	list-style-type: none;
+  margin-top: 10px;
+  width: 180px;
+  margin-left: 10px;
+}
+aside #div2{
+	width: 170px;
+	margin: 0 auto;
+}
+aside #div2 p,input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+aside #div2 button{
+	margin-bottom: 15px;
+}
+content{
+	width: 557px;
+	height: 420px;
+	background: url(images/news_down.jpg) no-repeat left bottom;
+	float: right;
+	position: relative;
+}
+content h1{
+	width: 557px;
+	height: 80px;
+	background: url(images/news_header.jpg) no-repeat
+}
+content div{
+	width: 557px;
+	height: 327px;
+	background:red url(images/news_bg.jpg);
+}
+content #div1{
+	width: 180px;
+	float: left;
+	position: absolute;
+	top: 65px;
+}
+content #div1 table{
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 45px;
+	margin-top: 5px;
+
+}
+content #div1 td{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+content #div1 img{
+	border: 3px solid yellow;
+}
+content #div2{
+	width: 331px;
+	height: 309px;
+	background: url(images/news_listbg.jpg) no-repeat;
+	float: left;
+	margin-left: 15px;
+	margin-top: 0px;
+	position: absolute;
+	left: 190px;
+	top: 60px;
+}
+content #div2 li{
+	margin-left: 30px;
+	line-height: 19px;
+}
+content #div2 span{
+	float: right;
+	margin-right: 14px;
+	display: block;
+}
+content #div2 a{
+	text-decoration: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #333;
+	line-height: 130%;
+}
+content #div2 a:hover{
+	text-decoration: underline;
+	color: red;
+	font-size: 110%;
+}
+content #div3{
+	width: 510px;
+	height: 34px;
+	background: url(images/news_call.jpg);
+	clear: both;
+	position: absolute;
+	left: 25px;
+	bottom: 10px;
+}
+content #div3 p{
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #222;
+}
+nav{
+	width: 760px;
+	height: 246px;
+	background: url(images/pics_bg.jpg);
+	clear: both;
+	position: relative;
+}
+nav h1{
+	width: 73px;
+	height: 246px;
+	background: url(images/pics_header.jpg) no-repeat;
+}
+nav table{
+  position: absolute;
+  left: 90px;
+  top: 15px;
+}
+nav table td{
+	padding-left: 15px;
+	color: maroon;
+}
+nav table img{
+	border: 5px solid lightyellow;
+}
+nav #div0{
+	width: 655px;
+	height: 91px;
+	background: url(images/pics_more.jpg) no-repeat;
+	position: absolute;
+	left: 85px;
+	bottom: 6px;
+}
+nav #div1{
+	margin-top: 5px;
+	width: 50%;
+	float: left;
+}
+nav #div1 ul{
+	margin-left: 25px;
+	line-height: 15px;
+}
+nav #div1 ul li{
+	margin-top: 5px;
+}
+nav #div1 ul span{
+	float: right;
+	margin-right: 10px;
+	display: block;
+}
+nav #div1 a,#div2 a{
+	text-decoration: none;
+	color: maroon;
+}
+nav #div1 a:hover,#div2 a:hover{
+	color: red;
+	font-size: 110%;
+}
+nav #div2{
+	margin-top: 5px;
+	width: 50%;
+	float: right;
+}
+nav #div2 ul{
+	margin-left:20px;
+	line-height: 15px;
+}
+nav #div2 ul li{
+	margin-top: 5px;
+}
+nav #div2 ul span{
+	float: right;
+	margin-right: 10px;
+}
+article{
+	width: 760px;
+	height: 373px;
+	background:url(images/tearoom_bg.jpg);
+	clear: both;
+}
+article #div1{
+	width: 254px;
+	height: 373px;
+	background: url(images/tearoom_down.jpg) no-repeat left bottom;
+	float: left;
+}
+article #div1 h1{
+	width: 100%;
+	height: 71px;
+	background: url(images/cartoon_header.jpg) no-repeat left top;
+}
+article #div2{
+	width: 253px;
+	height: 373px;
+	background: url(images/tearoom_down.jpg) no-repeat left bottom;
+	float: left;
+}
+article #div2 h1{
+
+	width: 100%;
+	height: 71px;
+	background: url(images/cartoon_header.jpg) no-repeat left top;
+}
+article #div3{
+	width: 253px;
+	height: 373px;
+	background: url(images/tearoom_down.jpg) no-repeat left bottom;
+	float: left;
+}
+article #div3 h1{
+	margin-left: 1px;
+	width: 100%;
+	height: 71px;
+	background: url(images/cartoon_header.jpg) no-repeat left top;
+}
+article #div1 ul{
+	margin-left:15px;
+	list-style-type: none;
+	line-height: 19px;
+	color: maroon;
+}
+article #div1 a{
+	text-decoration: none;
+	color: maroon;
+}
+article #div1 a:hover{
+	text-decoration: none;
+	color: red;
+}
+article #div2 ul.ul11{
+	margin-left:15px;
+	list-style-type: none;
+	line-height: 19px;
+}
+
+article #div2 a{
+	text-decoration: none;
+}
+article #div2 a:hover{
+	text-decoration: none;
+	color: red;
+	font-size: 11px;
+}
+article #div3 ul{
+	margin-left:15px;
+	list-style-type: none;
+	line-height: 19px;
+	color: maroon;
+}
+article #div3 a{
+	text-decoration: none;
+	color: maroon;
+}
+article #div3 a:hover{
+	text-decoration: none;
+	color: red;
+}
+footer{
+	width: 760px;
+	height: 66px;
+	background: url(images/footer.jpg);
+	clear: both;
+}
+
+footer p{
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	font-size: 11px;
+	color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

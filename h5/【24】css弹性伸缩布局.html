@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>css弹性伸缩布局</title>
+	<style type="text/css">
+		p{
+			width: 150px;
+			background: silver;
+			border: 1px solid red;
+			margin:5px;
+			padding: 5px;
+		}
+		div{
+			width: 100%;
+			background: red;
+			display: -webkit-box;
+			display: box;
+
+			/*-webkit-box-orient:vertical;*/
+			/*-webkit-box-orient:inline-axis;*/
+
+			-webkit-box-direction:reverse;
+
+			/*-webkit-box-pack:end;*/
+			/*-webkit-box-pack:center;*/
+			-webkit-box-pack:justify;
+		}
+		p:nth-child(1){
+			-webkit-box-flex:1;
+			-webkit-box-ordinal-group:2;
+		}
+		p:nth-child(2){
+			-webkit-box-flex:3;
+			-webkit-box-ordinal-group:1;
+		}
+		p:nth-child(3){
+			-webkit-box-flex:1;
+			-webkit-box-ordinal-group:3;
+		}
+		/*for IE(过渡版):
+			div{
+				-ms-flex-direction:column;
+				-ms-flex-direction:column-reverse;
+				-ms-flex-direction:row;
+				-ms-flex-direction:row-reverse;
+
+				-ms-flex-wrap:wrap;(是否换行)
+
+				-ms-flex-flow:row wrap;(简化形式)
+
+				-ms-flex-pack:center;(对齐方式)
+
+				-ms-flex-align:start;(情理空白空间方式)
+			}
+
+			p:nth-child(1){
+					-ms-flex:1;
+					-ms-flex-order:2;
+			};
+			p:nth-child(2){
+					-ms-flex:3;
+					-ms-flex-order:1;  
+			};
+
+      p:nth-child(3){
+					-ms-flex:1;
+					-ms-flex-order:3;
+			};
+
+		*/
+	/*新版本：
+			div{
+			display:flex;
+
+			flex-direction:column/row;
+
+			flex-wrap:wrap/nowrap;
+
+			flex-flow:row wrap;(简写形式)
+
+			justify-content:flex-start/flex--end/space-between/center/space-arround;
+
+			align-items:center;
+			}
+
+			p:nth-child(1){
+					flex:1;
+					order:2;
+			};
+			p:nth-child(2){
+					flex:3;
+					order:1;  
+			};
+
+      p:nth-child(3){
+					flex:1;
+					order:3;
+			};
+	*/
+	</style>
+</head>
+<body>
+<div>
+			<p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+			<p>嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿</p>
+			<p>呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵呵</p>
+</div>
+</body>
+</html>

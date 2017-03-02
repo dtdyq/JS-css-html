@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>my website</title>
+	<script type="text/javascript">
+    window.onload=function(){
+    	var aA=document.getElementsByTagName('a');
+    	for(var i=0;i<aA.length;i++){
+    		aA[i].onclick=function(){
+    			this.parentNode.style.display="none";//这里的this不能换成aA。
+    		}
+    	}
+    }
+	</script>
+</head>
+<body>
+<ul id="ul1">
+<li>dedede<a href="javascript:;">隐藏</a></li>
+<li>ddef3f34t<a href="javascript:;">隐藏</a></li>
+<li>9328y9g43<a href="javascript:;">隐藏</a></li>
+<li>2o39r834f<a href="javascript:;">隐藏</a></li>
+<li>dbuyq dqw<a href="javascript:;">隐藏</a></li>
+
+</ul>
+</body>
+</html>

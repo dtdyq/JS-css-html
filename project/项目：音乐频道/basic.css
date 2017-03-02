@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+	width: 760px;
+	margin: 0 auto;
+}
+img{
+	border:none;
+}
+#header{
+	width: 760px;
+	height: 190px;
+
+}
+#nav{
+	width: 760px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+#banner{
+	width: 760px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+#act{
+	width: 250px;
+	height: 226px;
+	background: green url(images/jmd_bottom.jpg) no-repeat left bottom;
+	float: left;
+	margin-bottom: 10px;
+}
+#act h1{
+	width: 250px;
+	height: 32px;
+	font-size: 12px;
+	background: url(images/jmd_top.jpg) no-repeat left top;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+}
+#act div{
+	width: 250px;
+	height: 188px;
+	background: url(images/jmd_bg.jpg);
+}
+#act div ul{
+	height: 188px;
+	overflow: auto;
+	width: 240px;
+	margin: 0 auto;
+	color: #fff;
+	text-indent: 45px;
+	line-height: 150%;
+	font-size: 8px;
+	letter-spacing: 1px;
+	scrollbar-face-color:#333;
+	scrollbar-highlight-color:#666;
+	scrollbar-shadow-color:#333;
+	scrollbar-3dlight-color:#999;
+	scrollbar-arrow-color:#999;
+	scrollbar-track-color:#000;
+}
+#act div ul li span{
+	color: lightgreen;
+}
+ul{
+	list-style-type: none;
+
+}
+ul li{
+
+}
+#ad{
+	width: 250px;
+	height: 100px;
+	background: navy;
+	float: left;
+	margin-bottom: 10px;
+}
+#video{
+	width: 500px;
+	height: 336px;
+	background:  url(images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px;
+}
+#video h1{
+	background: url(images/flv_top.jpg) no-repeat left top;
+	width: 500px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#video div{
+	width: 500px;
+	height: 299px;
+	background: url(images/flv_bg.jpg);
+}
+#video div span{
+	display: block;
+	width: 320px;
+	height: 260px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 10px;
+}
+#video div ul{
+	width: 80px;
+	height: 260px;
+	float: left;
+	padding-top: 20px;
+}
+#video div ul li img{
+	width: 75px;
+	height: 55px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+#video div strong{
+	display: block;
+	clear: both;
+	color: #999;
+	font-size: 9px;
+  text-indent: 70px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+#top{
+	width: 250px;
+	height: 340px;
+	background: url(images/jmd_bottom.jpg) no-repeat left bottom;
+	float: left;
+}
+#top ul li{
+	font-size: 10px;
+	color: #fff;
+	line-height: 200%;
+	padding-left: 25px;
+
+}
+
+#top div{
+	width: 250px;
+	height: 303px;
+	background: url(images/jmd_bg.jpg);
+}
+#top h1{
+	background: url(images/jmd_top.jpg) no-repeat left top;
+	width: 250px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+#commend{
+	width: 500px;
+	height: 119px;
+	background: url(images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px;
+}
+#commend h1{
+	width: 500px;
+	height: 31px;
+	background: url(images/flv_top.jpg) no-repeat left top;
+	text-align: center;
+	line-height: 31px;
+	color: #fff;
+	font-size: 12px;
+}
+#commend div{
+	width: 500px;
+	height: 82px;
+	background: url(images/flv_bg.jpg);
+}
+#commend div li{
+	display: inline;
+
+}
+#commend div li img{
+	padding-top: 12px;
+	padding-left: 5px;
+}
+#commend #img1{
+	padding-left: 25px;
+}
+#compere{
+	width: 500px;
+	height: 140px;
+	background: url(images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px;
+}
+#compere h1{
+	width: 500px;
+	height: 31px;
+	font-size: 12px;
+	background: url(images/flv_top.jpg) no-repeat left top;
+	text-align: center;
+	line-height: 31px;
+	color: #fff;
+}
+#compere div{
+	width: 500px;
+	height: 103px;
+	background: url(images/flv_bg.jpg);
+}
+#compere td{
+	font-size: 9px;
+	color: #fff;
+	padding-top: 8px;
+}
+#compere td img{
+	padding-left: 35px;
+
+}
+#compere td span{
+	font-weight: bold;
+}
+#partner{
+	width: 500px;
+	height: 60px;
+	background: yellow;
+	float: right;
+	margin-bottom: 10px;
+}
+#footer{
+	width: 760px;
+	height: 120px;
+	background: url(images/footer.gif) no-repeat left top;
+	clear: both;
+}
+#footer h1{
+	color: #999;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 20px;
+	padding-top: 10px;
+}
+#footer p{
+	line-height: 20px;
+	color: #666;
+	font-size: 8px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

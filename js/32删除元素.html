@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+    window.onload=function(){
+    	var aA=document.getElementsByTagName('a');
+    	var oUl=document.getElementById('ul1');
+    	for(var i=0;i<aA.length;i++){
+    		aA[i].onclick=function(){
+    			oUl.removeChild(this.parentNode);
+    		}
+    	}
+    }
+</script>
+</head>
+<body>
+<ul id="ul1">
+  <li>fegrf<a href="javascript:;">delete</a></li>
+  <li>dweiu<a href="javascript:;">delete</a></li>
+  <li>fewfas<a href="javascript:;">delete</a></li>
+  <li>56546<a href="javascript:;">delete</a></li>
+</ul>
+</body>
+</html>

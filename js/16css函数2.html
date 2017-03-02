@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+	<title></title>
+	<script type="text/javascript">
+	function css(obj,name,value){
+        if(arguments.length==3){
+         obj.style[name]=value;	
+        }
+        else{
+         
+          return obj.style[name];
+        }
+	}
+	window.onload=function(){
+		odiv=document.getElementById('div1');
+		alert(css(odiv,'width'));
+		//alert(css(odiv,'backgroundcolor'));有待解决的问题
+    css(odiv,'background','green');
+	}
+	</script>
+</head>
+<body>
+<div id='div1' style="width:200px;height:200px;background:red;"/></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+//文档对象模型：
+//属性：
+document.title
+document.lastModified
+document.URL
+document.domain
+//方法：
+document.write()
+document.getElementById()
+document.querySelectorALL()
+document.createElement()
+document.createTextNode()

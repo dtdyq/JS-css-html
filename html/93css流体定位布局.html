@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css流体定位布局</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 5px;
+		}
+		#header{
+			width: auto;
+			background: #ccc;
+			margin-bottom:5px;
+		}
+		#header h3{
+			line-height: 60px;
+			font-size: 18px;
+			text-align: center;
+		}
+		#left{
+		
+			width: 24%;
+			height: 500px;
+			background: #ccc;
+			margin-bottom: 5px;
+			border:1px solid red;
+		}
+		#mid{
+      width: 49%;
+      background: #ccc;
+      border:1px solid red;
+      margin-left:25%;
+      margin-right: 26%;
+      position: absolute;
+      top: 70px;
+      height: 500px;
+		}
+		#right{
+			border:1px solid red;
+			position: absolute;
+			right: 5px;
+			width: 24%;
+			top: 70px;
+			height: 500px;
+			background: #ccc;
+			margin-bottom: 5px;
+		}
+		#footer{
+			width: auto;
+			background: #ccc;
+		}
+		#footer h4{
+			line-height: 30px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+<div id=header>
+<h3>title</h3>
+</div>
+
+<div id="left">
+left
+</div>
+
+<div id="mid">
+middle
+</div>
+
+<div id="right">
+right
+</div>
+
+<div id="footer">
+<h4>foot</h4>
+</div>
+	
+</body>
+</html>

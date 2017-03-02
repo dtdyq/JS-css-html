@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css构造列表与导航</title>
+	<style type="text/css">
+		body{
+			margin: 50px;
+		}
+		#ul1{
+			list-style-type: none;
+			padding: 0;
+			margin:0;
+			list-style-image: url(images/gift.png);
+
+		}
+		#ul2 li{
+			list-style-type: none;
+			padding: 0;
+			margin:0;
+			background: url(images/gift.png) no-repeat;
+			padding-left: 25px;
+			line-height: 50px;
+		}
+		#ul3{
+			list-style-type: circle;
+			padding: 0;
+			margin:0;
+		}
+		#ul3 li{
+			float: left;
+			margin-left: 30px;
+		}
+		#ul4{
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		#ul4 li{
+			background: url(images/gift.png) no-repeat;
+			padding-left: 50px;
+			display: inline;
+		}
+		#ul5{
+			list-style-type: none;
+			padding: 2px;
+			margin: 5px;
+			font-size: 14px;
+			width: 140px;
+		}
+		#ul5 li{
+			background: #ddd;
+			margin: 0;
+			padding: 2px 10px;
+			border-left: 1px solid white;
+			border-top: 1px solid #fff;
+			border-right: 1px solid #666;
+			border-bottom: 1px solid #aaa;
+		}
+		#ul6{
+			list-style-type: none;
+			margin: 0;
+			font-size: 14px;
+
+		}
+		#ul6 li a{
+			background: #94b8e9;
+			width: 200px;
+			height: 40px;
+			display: block;
+			line-height: 40px;
+			text-decoration: none;
+			color:#000;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<ul id="ul1">
+	<li>the first</li>
+	<li>the second</li>
+	<li>the third</li>
+	<li>the fourth</li>
+</ul>
+<ul id="ul2">
+	<li>the first</li>
+	<li>the second</li>
+	<li>the third</li>
+	<li>66the fourth</li>
+</ul>
+<ul id="ul3">
+	<li>the first</li>
+	<li>the second</li>
+	<li>the third</li>
+	<li>the fourth</li>
+</ul>
+<br />
+<br />
+<br />
+<ul id="ul4">
+	<li>the first</li>
+	<li>the second</li>
+	<li>the third</li>
+	<li>the fourth</li>
+</ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<ul id="ul5">
+	<li><a href="#">the first</a></li>
+	<li><a href="#">the second</a></li>
+	<li><a href="#">the third</a></li>
+	<li><a href="#">the fourth</a></li>
+</ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<ul id="ul6">
+	<li><a href="#">the first</a></li>
+	<li><a href="#">the second</a></li>
+	<li><a href="#">the third</a></li>
+	<li><a href="#">the fourth</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<title>css多列布局</title>
+	<style type="text/css">
+		div{
+			columns: 200px 3;
+			column-gap: 50px;
+			column-rule: 1px solid red;
+			
+		}
+		h2{
+			text-align: center;
+			column-span: all;
+		}
+	</style>
+</head>
+<body>
+<div>
+<h2>title</h2>
+	<h3>one</h3>
+	<p>first</p>
+
+	<h3>two</h3>
+	<p>second</p>
+
+	<h3>three</h3>
+	<p>third</p>
+
+	<h3>four</h3>
+	<p>fourth</p>
+
+	<h3>five</h3>
+	<p>fifth</p>
+</div>
+</body>
+</html>

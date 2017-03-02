@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+	function changeImage(){
+		element=document.getElementById('myimage')
+		if(element.src.match("信阳毛尖"))
+		{
+			element.src="images/snow.jpg";
+		}
+		else{
+			element.src="images/信阳毛尖.jpg";
+		}
+	}
+	</script>
+	<img id="myimage" onclick="changeImage()" src="images/snow.jpg">
+	<p>点击图片以切换</p>
+</body>
+</html>

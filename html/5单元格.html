@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.3w.org/1999/xhtml" lang="en" xml:lang="en"/>
+<head>
+	<title>单元格</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>这是一个单元格：</h1>
+	<table style="width:400px;height:50px" border="1";/>
+		<tr>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>性格</th>
+		</tr>
+		<tr>
+			<td>段燕强</td>
+			<td>20</td>
+			<td>刁钻古怪</td>
+		</tr>
+		<tr>
+			<td>燕强段</td>
+			<td>12</td>
+			<td>古怪刁钻</td>
+		</tr>
+	</table>
+	<br />
+	<br />
+	<table border="1" type="width:100%">
+		<tr>
+			<th style="width:30%">姓名</th>
+			<th style="width:10%">年龄</th>
+			<th style="width:60%">性格</th>
+		</tr>
+		<tr>
+			<td>段燕强</td>
+			<td>20</td>
+			<td>刁钻古怪</td>
+		</tr>
+		<tr>
+			<td>燕强段</td>
+			<td>12</td>
+			<td>古怪刁钻</td>
+	</table>
+	<br />
+	<br />
+	<h2>指定单元格宽度并添加背景图片：</h2>
+	<table border="3em" background="images/snow.jpg">
+		<tr>
+			<th style="background-color:pink" type="width:300px;height:50px">姓名</th>
+			<th>年龄</th>
+			<th>性格</th>
+		</tr>
+		<tr>
+			<td>段燕强</td>
+			<td>20</td>
+			<td>刁钻古怪</td>
+		</tr>
+		<tr background="images/teatea.jpg">
+			<td>燕强段</td>
+			<td>12</td>
+			<td>古怪刁钻</td>
+		</tr>
+	</table>
+	<br />
+	<br />
+	<table border="1" cellpadding="15" cellspacing="10"/>
+		<tr>
+			<th colspan="2"/>姓名</th>
+			<th>年龄</th>
+			<th>性格</th>
+		</tr>
+		<tr>
+			<td>段燕强</td>
+			<td>燕强段</td>
+			<td colspan="2">后面再做介绍</td>
+		</tr>
+		<tr>
+			<td style="color:red" rowspan="2"/>1000</td>
+			<td style="text-align:right"/>100</td>
+			<td>10</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>100</td>
+            <td>100</td>
+            <td>100</td>
+		</tr>
+		</body>
+	</html>

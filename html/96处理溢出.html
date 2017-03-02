@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>处理溢出</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border:1px solid red;
+			margin: 150px;
+		}
+		#div1{
+			overflow-y:visible; 
+		}
+		#div2{
+			overflow-y:hidden; 
+		}
+		#div3{
+			overflow-y:auto;
+		}
+		#div4{
+			overflow-y:scroll;
+		}
+	</style>
+</head>
+<body>
+<p>visiable:</p>
+<div id="div1">fowiqhfoasijfoweihfv
+nfowiqhfoasijfoweihf
+vnfowiqhfoasijfowei
+hfvnfowiqhfoasijfo
+weihfvnfowiqhfoasi
+jfoweihfvnfowiqhfo
+asijfoweihfvnfowiqh
+foasijfoweihfvnfowi
+qhfoasijfoweihfvnfo
+wiqhfoasijfoweihfvn
+fowiqhfoasijfoweihf
+vnfowiqhfoasijfoweih
+fvnfowiqhfoasijfoweih</div>
+<p>hidden:</p>
+<div id="div2">fowiqhfoasijfowei
+nfowiqhfoasijfowe
+vnfowiqhfoasijfo
+hfvnfowiqhfoasijf
+weihfvnfowiqhfoa
+jfoweihfvnfowi
+asijfoweihfvnfo
+foasijfoweihfvnf
+qhfoasijfoweihfv
+wiqhfoasijfoweih
+fowiqhfoasijfo
+vnfowiqhfoasijf
+fvnfowiqhfoaw</div>
+<p>auto:</p>
+<div id="div3">fowiqhfoasijfoweihfv
+nfowiqhfoasijfoweihf
+vnfowiqhfoasijfowei
+hfvnfowiqhfoasijfo
+weihfvnfowiqhfoasi
+jfoweihfvnfowiqhfo
+asijfoweihfvnfowiqh
+foasijfoweihfvnfowi
+qhfoasijfoweihfvnfo
+wiqhfoasijfoweihfvn
+fowiqhfoasijfoweihf
+vnfowiqhfoasijfoweih
+fvnfowiqhfoasijfoweih</div>
+<p>scroll:</p>
+<div id="div4">
+fowiqhfoasijfow
+vnfowiqhfoasij
+hfvnfowiqhfoa
+asijfoweihfvnfo
+</div>
+<!-- <p></p> -->
+</body>
+</html>

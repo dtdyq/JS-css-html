@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my website</title>
+	<style type="text/css">
+		#div1{
+			width: 100px;
+			height:200px;
+			background: red;
+			position: absolute;
+			left: -100px;
+		}
+		#div1 span{
+			position: absolute;
+			width: 20px;
+			height: 40px;
+			line-height: 20px;
+			background: #ccc;
+			right: -20px;
+
+			top: 60px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+			var oDiv=document.getElementById('div1');
+			oDiv.onmouseover=function(){
+				startMove(0);
+			}
+			oDiv.onmouseout=function(){
+				startMove(-150);
+			}
+		}
+		var timer=null;
+		function startMove(iTarget){
+			oDiv=document.getElementById('div1');
+			clearInterval(timer);
+			timer=setInterval(function(){
+				if(oDiv.offsetLeft==iTarget){
+					clearInterval(timer);
+				}
+				else{
+					oDiv.style.left=oDiv.offsetLeft+10+'px';
+				}
+			},30)
+		}
+	</script>
+</head>
+<body>
+	<div id="div1">
+		<span>分享</span>
+	</div>
+</body>
+</html>

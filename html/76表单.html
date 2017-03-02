@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my website</title>
+</head>
+<body>
+<form method="post" name="reg">
+    <fieldset width="500">
+    <legend>注册表单</legend>
+    <input type="file" name="file" value="浏览"><br>
+		姓名：<input type="text" value="Please input your name" maxlength="10"><br>
+		密码：<input type="password" name="password" ><br>
+		<input type="button" value="login"><br>
+		爱好：
+		<input type="checkbox" name="xuan" checked="checked">体育
+		<input type="checkbox" name="xuan" disabled="disabled">音乐
+		<input type="checkbox" name="xuan">摄影<br>
+    性别：
+    <input type="radio" name="sex" value="男">男<input type="radio" value="女" name="sex">女
+    <br>
+    地址:<select name="address">
+			<option value="沁源" selected="selected">沁源</option>
+			<option value="北京">北京</option>
+			<option value="天堂">天堂</option>
+    </select><br>
+    地址:<select>
+			<optgroup label="沁源">
+				<option>北区</option>
+				<option>南区</option>
+				<option>西区</option>
+				<option>东区</option>
+			</optgroup>
+			<optgroup label="北京">
+				<option>地狱</option>
+				<option>修罗</option>
+				<option>恶魔</option>
+				<option>脑残</option>
+			</optgroup>
+			<optgroup label="天堂">
+				<option>西天</option>
+				<option>南天</option>
+				<option>冬天</option>
+				<option>诶天</option>
+			</optgroup>
+    </select>
+    <br>
+    请留下您想说的话：<textarea name="content" cols="40" rows="8">
+
+    </textarea><br>
+     <input type="submit" name="提交" value="提交">
+    <input type="reset" name="重置" value="重置"><br>
+    <button type="submit">
+			<img src="url">
+    </button>
+    <input type="image" src="url">
+    </fieldset>
+    </form>
+   
+   
+</body>
+</html>

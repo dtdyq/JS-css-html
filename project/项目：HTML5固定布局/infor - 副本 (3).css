@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+#nav{
+	width: 100%;
+	min-width: 1263px;
+	height: 70px;
+	background: #333;
+	box-shadow: 0 1px 12px;
+	position: relative;
+	z-index: 9999;
+}
+.sec{
+	width: 1263px;
+	margin: 0 auto;
+}
+.sec h1{
+	height:70px;
+	width: 240px;
+	background: url(img/logo.png) no-repeat;
+	float: left;
+	text-indent: -9999px;
+}
+.sec ul{
+	float: right;
+	width: 650px;
+	color:#fff;
+	line-height: 70px;
+	text-align: center;
+}
+.sec ul li{
+	float: left;
+	width: 120px;
+}
+.sec a{
+	display: block;
+	color: #fff;
+	width: 120px;
+	height: 70px;
+}
+.sec a:hover,.sec a.first{
+	background: #000;
+}
+
+#bot{
+	width: auto;
+	min-width: 1263px;
+	height: 350px;
+	/*text-align: center;*/
+	background: #222;
+	color: #888;
+	/*margin: 30px auto;*/
+}
+#bot #tr1{
+	width: 25%;
+	margin: 8px 0 30px 80px;
+	float: left;
+}
+#bot #tr1 ul{
+	line-height:2;
+	font-size: 19px;
+}
+#bot #tr1 ul li.fir{
+	font-size: 24px;
+	color: #ccc;
+	border-bottom: 1px dashed #777;
+	padding: 4px 4px 0 4px;
+}
+#bot #copy{
+	width: 100%;
+	height: 65px;
+	text-align: center;
+	font-size: 19px;
+	color: #777;
+	background: #000;
+	clear: both;
+	line-height: 65px;
+	border-top: 1px solid #444;
+}

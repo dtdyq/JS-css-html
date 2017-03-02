@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Javascript能改变HTML中的内容:</h2>
+	<p id="demo">
+		我的JavaScript！！！
+	</p>
+	<script>
+	function myFunction(){
+		var x=document.getElementById("demo");
+		x.innerHTML="Javascript是我的！！！";
+	}
+	</script>
+	<button type="button" onclick="myFunction()">点击这里</button>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	var a=[1,2,3,4]
+	alert(a[2]);
+	//排序：
+	var arr=['float','int','width','height','zoom','left'];
+	arr.sort();
+	alert(arr);
+	//数组链接：
+	alert(arr.concat(a));
+	//数组splice:
+	var c=[2,4,7,9,1,6,0]
+	c.splice(2,2,'a','c');
+	alert(c);
+	c.splice(2,2);
+	alert(c);
+	c.splice(2,0,'a','c');
+	alert(c);
+	//数组头部插入：
+	c.unshift(8999);
+	alert(c);
+	//数组头部删除：
+	c.shift();
+	alert(c);
+	//数组尾部插入：
+	c.push(4566);
+	alert(c);
+	//数组尾部删除：
+  c.pop();
+  alert(c);
+  //数组排序：
+  var d=[2,5,3,9,1,12,67,34,4];
+  d.sort(function(n1,n2){
+  	return n1-n2;
+  })
+  alert(d);
+	</script>
+</head>
+<body>
+
+</body>
+</html>

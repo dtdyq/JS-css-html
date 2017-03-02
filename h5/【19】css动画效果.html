@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>css动画效果</title>
+	<style type="text/css">
+		body{
+			margin: 100px;
+
+		}
+		div{
+			width: 200px;
+			height: 200px;
+			border:1px solid red;
+			animation-name: myani;
+			animation-duration: 1s;
+			animation-timing-function: linear;
+			/*animation-delay: 1s;*/
+			animation-iteration-count: infinite;
+			/*animation-direction: alternate;*/
+			/*animation-play-state: paused;*/
+			/*animation-fill-mode: forwards;*/
+		}
+		@keyframes myani{
+			0%,100%{
+				background: white;
+				margin-left: 0px;
+			}
+			50%{
+				background: black;
+				margin-left: 100px;
+				color:white;
+			}
+		/*	from{
+				background: white;
+				margin-left: 0px;
+			}
+			to{
+				background: black;
+				margin-left: 100px;
+				color:white;
+			}
+*/		}
+	</style>
+</head>
+<body>
+<div>this is a flash.</div>
+</body>
+</html>

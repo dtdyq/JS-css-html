@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+
+}
+#header{
+	font-size: 250%;
+	text-align: center;
+	line-height: 20px;
+	margin: 30px;
+}
+#slice{
+	width: 400px;
+	height: 415px;
+	background: url(images/slice.gif) no-repeat -454px 53px;
+	margin:0 auto;
+}
+#slice h1{
+	font-size: 12px;
+	width: 400px;
+	height: 49px;
+	background: url(images/slice.gif) no-repeat -454px -13px;
+	padding-top: 7px;
+}
+#slice h1 a{
+	width: 45px;
+	height: 23px;
+	display: block;
+	margin-left: auto;
+	background: url(images/slice.gif) no-repeat -798px -230px;
+	text-align: center;
+	line-height: 23px;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	margin-right: 9px;
+}
+#slice div{
+	width: 400px;
+	height: 350px;
+	background: white url(images/slice.gif) repeat-y -32px -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

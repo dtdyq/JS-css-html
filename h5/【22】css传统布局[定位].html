@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+<meta charset="utf-8">
+	<title>css传统布局(表格)</title>
+	<style type="text/css">
+		body{
+			margin:0 auto;
+			width: 960px;
+			/*border: 1px solid red;*/
+			position: relative;
+		}
+		header{
+			width: 960px;
+			height:100px;
+			background: silver;
+			position: absolute;
+			/*position: fixed;*/
+			top: 0;
+			left: 0;
+			/*z-index: 1;*/
+		}
+		aside{
+			width: 200px;
+			height:500px;
+			background: olive;
+			position: absolute;
+			top: 100px;
+			left: 0px;
+			/*z-index: 2;*/
+			/*box-sizing: content-box;*/
+			box-sizing: border-box;
+			padding: 20px;
+			border: 5px solid red;
+		}
+		section{
+			width: 760px;
+			background: maroon;
+			position: absolute;
+			top: 100px;
+			left: 200px;
+			height: 500px;
+		}
+		footer{
+			width: 960px;
+			height: 80px;
+			background: gray;
+			position: absolute;
+			left: 0;
+			top: 600px;
+		}
+	</style>
+</head>
+<body>
+<header>header</header>
+<aside>aside</aside>
+<section>section</section>
+<footer>footer</footer>
+</body>
+</html>

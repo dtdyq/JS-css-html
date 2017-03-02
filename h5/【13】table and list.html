@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table and list</title>
+	<style type="text/css">
+		table{
+			width: 300px;
+			height: 200px;
+			text-align: center;
+			/*border-collapse: separate;*/
+		  margin: 5px;	
+		}
+		#t1{
+			border-collapse: collapse;
+			caption-side: bottom;
+		}
+		#t2{
+			border-spacing: 0px;
+			caption-side: top;
+		}
+    #t3{
+    	empty-cells: hide;
+    }
+    #t5{
+    	table-layout:  auto;
+    }
+    #t6{
+    	table-layout: fixed;
+    }
+    #t7{
+    	border:1px solid red ;
+    }
+    #t8{
+    	border:1px solid red ;
+    }
+    #t8 th,#t8 td{
+			border:1px dotted maroon;
+    }
+	</style>
+</head>
+<body>
+<table id="t1" border="1">
+<caption>title</caption>
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td>12</td></tr>
+</table>
+<hr />
+<table id="t2" border="1">
+<caption>title</caption>
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td>12</td></tr>
+</table>
+<hr />
+<table id="t3" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t4" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t5" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4444444444444444444444444</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t6" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4444444444444444444444444</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t7" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t8" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+<hr />
+<table id="t9" border="1">
+<tr><th>1</th><th>2</th><th>3</th></tr>
+<tr><td style="vertical-align:middle;">4</td><td style="vertical-align:top;">5</td><td style="vertical-align:bottom;">6</td></tr>
+<tr><td style="vertical-align:sub;">7</td><td style="vertical-align:super;">8</td><td>9</td></tr>
+<tr><td>10</td><td>11</td><td></td></tr>
+</table>
+
+<hr /><hr />
+<p>list:</p>
+<ul style="list-style-type:none;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:disc;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:circle;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:square;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:decimal;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:lower-roman;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:upper-roman;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:lower-alpha;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-type:upper-alpha;">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+<ul style="list-style-image:url(../images/gift.png);">
+<li>frist</li>
+<li>second</li>
+<li>third</li>
+<li>fourth</li>
+</ul>
+
+<div style="width:200px;height:200px;background:red;text-align:center;"><span style="vertical-align:-80px;background:blue;">center</span></div>
+
+</body>
+</html>

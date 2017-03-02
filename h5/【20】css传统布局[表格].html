@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+<meta charset="utf-8">
+	<title>css传统布局(表格)</title>
+	<style type="text/css">
+			body{
+				margin: 0;
+			}
+			table{
+				width: 960px;
+				margin: 0 auto;
+				border-spacing: 0px;
+				border-collapse: collapse;
+			}
+			.header{
+				height: 120px;
+				background: olive;
+			}
+			.nav{
+				background: purple;
+				height: 500px;
+				width: 200px;
+			}
+			.body{
+				background: maroon;
+				width: 760px;
+			}
+			.sider{
+				background: gray;
+				height: 75px;
+			}
+	</style>
+</head>
+<body>
+	<table border="1">
+
+		<tr><td colspan="2" class="header">header</td></tr>
+
+		<tr>
+		<td class="nav">nav</td>
+
+		<td class="body">body</td>
+		</tr>
+
+		<tr><td colspan="2" class="sider">sider</td></tr>
+
+	</table>
+</body>
+</html>
